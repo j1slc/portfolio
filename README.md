@@ -4,18 +4,18 @@
 
 ```
 Jio.html
-├── #work
+├── * Work
 │   ├── Founder — Quester
 │   └── Founder — Cairoverse        
-├── #about me
-├── #skills
+├── * About me
+├── * Skills
 │   ├── Foundations                 HTML · CSS · JavaScript · TypeScript
 │   ├── Frameworks                  React
 │   ├── Design                      UI / UX
 │   ├── Discord                     Discord ecosystem
 │   ├── Tools                       GitHub · VS Code · Claude · Antigravity · Git · npm
 │   └── Back end                    Node.js
-├── #languages
-├── #contact                        Email · GitHub · Instagram · Facebook · Discord · WhatsApp
-└── Footer
+├── * Languages
+├── * Contact                        Email · GitHub · Instagram · Facebook · Discord · WhatsApp
+└── * Footer
 ```
