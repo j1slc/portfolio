@@ -23,6 +23,14 @@
   --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   color-scheme: dark;
 }
+
+/* Scrollbar */
+html { scrollbar-width: thin; scrollbar-color: var(--cyan-dim) var(--bg); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--cyan-dim); border: 2px solid var(--bg); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--cyan); }
+::-webkit-scrollbar-corner { background: var(--bg); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
@@ -215,7 +223,7 @@ footer.site-foot { display: flex; justify-content: space-between; align-items: c
           <div class="role">Creator</div>
           <h3>Zad</h3>
           <div class="desc">
-            <p>A religious website for Muslims with the Quran, daily azkar, and more, all in one place.</p>
+            <p>A religious website for Muslims with the Quran, daily Azkar, and more, all in one place.</p>
             <div class="links">
               <a href="https://zad-al-muslims.vercel.app/" target="_blank" rel="noopener">Website</a>
               <a href="https://github.com/j1slc/Zad" target="_blank" rel="noopener">REPO</a>
